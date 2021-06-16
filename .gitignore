@@ -11,6 +11,7 @@
 __pycache__/*
 .cache/*
 .*.swp
+ScrapTagram/config.py
 
 # Project files
 .ropeproject
@@ -48,5 +49,10 @@ MANIFEST
 
 # Per-project virtualenvs
 .env
+.autoenv.zsh
 .venv*/
 .conda*/
+
+# Project exceptions
+geckodriver
+geckodriver.log
